@@ -1,0 +1,35 @@
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    /* collaps valu use for double border to single borders  */
+    width: 100%;
+
+}
+
+
+th,
+td {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: darkgreen;
+    color: white;
+    height: 30px;
+    vertical-align: bottom;
+    /* verftical align: bottom, middle, top etc */
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+}
+
+tr:nth-child(odd) {
+    background-color: gold;
+}
+
+tr:hover {
+    background-color: tomato;
+}

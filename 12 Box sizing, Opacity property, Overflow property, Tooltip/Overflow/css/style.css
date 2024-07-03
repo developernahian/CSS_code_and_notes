@@ -1,0 +1,24 @@
+.div1 {
+    height: 100px;
+    width: 250px;
+    background-color: green;
+    border: 3px solid red;
+}
+
+
+
+.div2 {
+    height: 100px;
+    width: 250px;
+    background-color: green;
+    border: 3px solid red;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+
+/* ! here overfolow by default is visible */
+/* ! here overflow hidden is : hide the text those out of div */
+/* ! here overflow scroll is : add a scrollbar */
+/* ! here overflow auto is : add a scroll bar when it need that means if the text is large and out of contain. otherwise the scrollbar is hidden when text is not large and it does not need */

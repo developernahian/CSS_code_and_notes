@@ -1,0 +1,53 @@
+/* ! Pseudo class :hover */
+/* ! a.link1:hover */
+/* ! no space between a.link and no space between link1:hover */
+a.link1:hover{
+    color: green;
+}
+
+/* ********************************************************* */
+
+.link2{
+    padding: 10px;
+    font-size: 1rem;
+    width: 150px;
+}
+
+/* ! Pseudo class :focus */
+/* !click input box then focun work */
+input:focus{
+    background-color: green;
+}
+
+/* *************************************************** */
+
+    table, tr, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    /* ! Pseudo class :nth-child() */
+    tr:nth-child(odd){
+        background-color: green;
+    }
+
+    tr:nth-child(even){
+        background-color: yellow;
+    }
+
+    /* ************************************** */
+    /* ::first-latter is a Pseudo element */
+    p::first-letter{
+        color: red;
+        font-size: 3.5rem;
+    }
+   
+   span::after{
+       content: ">"; /* ! content speling carefull*/
+   }
+   span::before{
+       content: "<";
+   }
+  
+
+    

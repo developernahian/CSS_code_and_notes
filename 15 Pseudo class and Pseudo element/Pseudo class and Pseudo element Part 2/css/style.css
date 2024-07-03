@@ -1,0 +1,25 @@
+.demo p:first-child{
+    background-color: green;
+}
+.demo p:last-child{ /* .demo p:last-child or p:last-child*/
+                    /* .demo p:last-child is best practice. because when many div then face problem if we do not use .demo */
+    background-color: red;
+}
+
+.demo p:nth-child(3){
+    background-color: yellow;
+}
+
+/* !  ******************************** */
+
+/* Important important see it and try it */
+.demo2 p:nth-child(2n+1){ /* ! here n==0. */
+    background-color: yellow;
+}
+
+li:nth-child(3n+1){
+    color: green;
+    font-style: italic;
+    font-size: 20px;
+}
+

@@ -1,0 +1,33 @@
+#linear-gradient1 {
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(to right, red, green, yellow, orange, black);
+    /* to right.... to left.... to bottom.... to top but to top does not work. to top Problem. */
+    /*! background: or background-image:  both works same*/
+}
+/* ********************************************* */
+
+#linear-gradient2 {
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(to left, red, green, yellow, orange, black);
+    /* ! here background use because background or background-image works same here */
+}
+
+/* ********************************************** */
+
+#linear-gradient3 {
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, red, green, yellow, orange, black);
+}
+
+/* ********************************************** */
+
+
+#radial-gradient {
+    height: 400px;
+    width: 400px;
+    background-image: radial-gradient(circle, red, green, yellow, orange, black)
+}
+

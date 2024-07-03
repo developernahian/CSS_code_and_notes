@@ -1,0 +1,27 @@
+textarea {
+    /* by default textarea has resize option, so id remove resize option by using resize: none;*/
+    resize: none;
+    width: 50%;
+    padding: 20px;   
+    border: 3px gray solid;
+    border-radius: 15px;
+}
+
+/* "" quotatai na dile and dile kaz korceh.... tutorial e diea and na diea 2vabeE kora ache... right niom ta ami janina. i think it will be solve in future */
+input[type="button"], input[type=reset]{
+    width: 100px;
+    border: none;
+    background-color: indianred;
+    color: whitesmoke;
+    padding: 10px;
+    cursor: pointer;
+}
+
+select{
+    width: 50%;
+    padding: 20px;
+    border: none;
+    background-color: tomato;
+    border-radius: 10px;
+    
+}

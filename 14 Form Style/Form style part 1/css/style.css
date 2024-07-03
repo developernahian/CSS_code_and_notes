@@ -1,0 +1,28 @@
+/* input or input[type=text] are same.. but besically we use many input like type="text", type="password" etc. so if we use input[type=text] it is better for identify which type of input we want apply css property  */
+input[type=text] {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 20px 0;
+    border: 3px solid salmon;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: seagreen;
+}
+
+#search{
+    background-image: url(../icon/search.png);
+    background-repeat: no-repeat;
+    background-position: 8px 17px;
+    font-size: 1rem;
+    padding: 15px 40px;
+    width: 150px;
+    background-color: rgb(223, 210, 210);
+    transition: width 0.4s ease-in-out;
+}
+
+/* focus important */
+#search:focus{
+    background-color: sienna;
+    width: 100%;
+}

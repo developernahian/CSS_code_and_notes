@@ -1,0 +1,47 @@
+/* ! :first-of-type is a Pseudo class */
+#div1 .class1 li:first-of-type {
+    background-color: black;
+    color: aqua;
+}
+
+#div2 .class2 li:last-of-type {
+    background-color: black;
+    color: aqua;
+}
+
+
+/* ? Important */
+/* TODO IMPORTANT*/
+/* ! placeholder is a Pseudo element */
+input::placeholder{
+    color: darkviolet;
+}
+
+
+
+
+/* ! ::first-letter is a Pseudo element. and there is no last-letter in css */
+p::first-letter {
+    color: brown;
+    font-size: 3rem;
+}
+
+/* ! ::first-line is a Pseudo element. and there is no last-line in css */
+span::first-line{
+    color: green;
+}
+
+/* ? Important */
+/* TODO IMPORTANT*/
+/* ! ::selection is a Pseudo element. selection tag work when coppy text then chenge text coler or background */
+b::selection{
+    color: white;
+    background-color: black;
+}
+
+/* ! ******************************************* */
+/* ! ::before and ::after is Pseudo element */
+i::before, i::after{
+    content: " Hello Everyone- ";
+}
+
