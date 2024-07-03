@@ -1,0 +1,24 @@
+h1,
+h2 {
+    background-color: green;
+}
+
+/* block to inline by use display */
+div {
+    background-color: gray;
+    display: inline;
+}
+
+#a {
+    background-color: green;
+}
+
+#in{
+    background-color: yellow;
+}
+/* inline to block by using display */
+#b {
+    background-color: lawngreen;
+    display: block;
+    text-align: center;
+}

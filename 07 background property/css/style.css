@@ -1,0 +1,15 @@
+  /* body{
+    background-image: url("../picture/pic.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-color:pink;
+} */
+
+  /* or */
+
+  body {
+    background: greenyellow url("../picture/pic.png") no-repeat fixed center top;
+  }
+
+  /* here must background property. background image does not work here because of multiple value together here */

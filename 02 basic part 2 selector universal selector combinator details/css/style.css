@@ -1,0 +1,84 @@
+
+/* !   Universal selector "*"   */
+/* !   universal selector select all and it use for margin padding '0' and it also like simple body{property: vlaue; }  */
+* {
+    background-color: green;
+}
+
+/* ! Grouping Selector */
+h2, h3, h4, h5 {
+    color: rgb(107, 230, 213);
+}
+
+/* ! Combinator */
+/* ! Decendent Selector*/
+/* ! here only one that means h2 can be selected. div h2{property: value;} is right. div h2 h3 h4{property: value;} is wrong and does not work. that means only one element/tag can be use here */
+div h2 u{
+    color: yellow;
+}
+
+div i {
+    color: white;
+}
+
+/* ! Combinator */
+/* ! Child Selector > */
+/* it use for menubar with flex */
+div > p {
+    color: red;
+}
+
+
+/* ! Combinator */
+/* ! Decendent Selector */
+div b{
+    color: yellow;
+}
+
+
+/* ! Combinator */
+/* ! Adjacent Sibling Selector */
+/* ! It select only one and that is after div [here div, because i use it here, another time in place of another tag] */
+/* COMMENT: div p... ekhane ak kothay div er vitore kaz hobe na. div er bahire first jekhane p pabe otai kaz kobe */
+div +u  {
+    color: mediumblue;
+}
+
+
+/* ! Combinator */
+/* ! General Sibling Selector */
+/* ! It select all and that is after div [here div, because i use it here, another time in place of another tag] */
+/* COMMENT: here div del... ak kothay div er vitore kaz hobe na. div er bahire all del tag e kaz hobe */
+/* ! "~" simble name "Till" */
+div ~ del {
+    color: palevioletred;
+}
+
+ 
+
+
+/* COMMENT: Decendent Selector and Combinator er child selector er moddhe difference holo > use na korle all tag pabe mane div er votor i er vitor p thakle i er votorer p tao pabe and > use korle only div er moddhe p tag pabe, mane p i er vitore dhuke p access pabe na */
+
+
+
+
+/*div section1  */
+#section1 {
+    border: 4px solid black;
+    width: 500px;
+    font-size: 40px;
+}
+
+#section1 h2 {
+    color: brown;
+}
+
+/* IMPORTANT: important and see it */
+#section1 p i {
+    color: yellow;
+}
+
+#section1 h3 {
+    color: white;
+}
+

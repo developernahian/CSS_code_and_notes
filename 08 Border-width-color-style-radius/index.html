@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* 1 */
+        h1,
+        h2 {
+            /*not necessary to maintain order here like green dotted 5px*/
+            border: 5px green dotted;
+            width: 250px;
+        }
+
+        .double {
+            border: 5px red double;
+            width: 410px;
+        }
+
+        /* 2 */
+        #border1 {
+            width: 250px;
+            border-width: 5px;
+            border-color: green;
+            border-style: dotted;
+        }
+
+        /* 3 */
+        #border2 {
+            width: 250px;
+            border-top: 5px red solid;
+            border-right: 5px green solid;
+            border-bottom: 5px orange solid;
+            border-left: 5px yellow solid;
+        }
+
+        /* 4 radius */
+        #radius1 {
+            width: 180px;
+            border: 20px red solid;
+            border-radius: 40px;
+        }
+
+        /* 5 radius */
+        #radius2 {
+            width: 300px;
+
+            border: 20px red solid;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 40px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 10px;
+        }
+
+        /* 6 radius */
+        #radius3 {
+            width: 300px;
+
+            border-top-width: 20px;
+            border-top-color: green;
+            border-top-style: solid;
+
+            border-right-width: 26px;
+            border-right-color: orange;
+            border-right-style: solid;
+
+            border-bottom-width: 10px;
+            border-bottom-color: yellow;
+            border-bottom-style: dotted;
+
+            border-left-width: 10px;
+            border-left-color: blue;
+            border-left-style: solid;
+
+
+            border-top-left-radius: 20px;
+            border-top-right-radius: 40px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 1 -->
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h2 class="double">This is heading END</h2>
+    <br>
+
+    <!-- 2 -->
+    <h3 id="border1">This is heading 1</h3>
+    <h3 id="border1">This is heading 2</h3>
+    <h3 id="border1">This is heading 3</h3>
+    <br>
+
+    <!-- 3 -->
+    <h3 id="border2">This is heading 1</h3>
+    <h3 id="border2">This is heading 2</h3>
+    <h3 id="border2">This is heading 3</h3>
+    <br>
+
+    <!--4
+        ************** border radius -->
+    <h3 id="radius1">This is Radius</h3>
+    <br>
+
+    <!-- 5
+        *********************************** -->
+    <h3 id="radius2">This is Radius</h3>
+    <br>
+
+    <!-- 6
+        *********************************** -->
+    <h3 id="radius3">This is Radius</h3>
+
+    <br><br>
+
+</body>
+
+</html>

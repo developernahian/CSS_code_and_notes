@@ -1,0 +1,59 @@
+#section1{
+    color: green;
+}
+.align1{
+    text-align: center;
+}
+.align2{
+    text-align: justify;
+}
+
+
+/* decoration 1 2 3 4 */
+.decoration1{
+    text-decoration: none;
+}
+.decoration2{
+    text-decoration: underline;
+}
+.decoration3{
+    text-decoration: overline;
+}
+.decoration4{
+    text-decoration: line-through;
+}
+
+
+/* text-indent */
+/* text-indent first line left theke kichu jaiga chere dibe */
+.text_indent1{
+    text-indent: 60px;
+}
+
+/* text-transform */
+.text_transform1{
+    text-transform: none;
+}
+.text_transform2{
+    text-transform: uppercase;
+}
+.text_transform3{
+    text-transform:lowercase;
+}
+.text_transform4{
+    text-transform:capitalize;
+}
+
+/* text-shadow */
+/* 5px is X okkho, 2px is Y okkho and green is shadow color */
+#text_shadow1{
+    text-shadow: 5px 2px green; 
+}
+
+/* word-spacing */
+#word_spacing1{
+    word-spacing: 13px;
+}
+#word_spacing2{/* negative value for more close word*/
+    word-spacing: -2px;  
+}
