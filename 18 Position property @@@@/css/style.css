@@ -1,0 +1,45 @@
+/* ! fixed position */
+.div0 {
+    border: 3px solid rgb(0, 225, 255);
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    
+}
+
+/* ! static position is normal position ( no change in position)   */
+/* ! top, bottom, left, right is use when we work of position for space */
+.div1 {
+    border: 3px solid green;
+    padding: 5px;
+    position: static;
+    left: 50px;
+    /* ! left:50px; does NOT work here because it is static position.*/
+}
+
+/* ! relative position */
+.div2 {
+    border: 3px solid red;
+    padding: 5px;
+    position: relative;
+    left: 50px; /* TODO: top:50px; etc */
+    /* ! left:50px; does work here because it is relative position.*/
+}
+
+.div3 {
+    border: 3px solid blue;
+    padding: 5px;
+    position: relative;
+    height: 300px;
+}
+
+/* ! absolute position,, here div 4 works for div3, not body */
+.div4 {
+    border: 3px solid yellow;
+    padding: 5px;
+    /* position: relative; */
+    position: absolute;
+    left: 100px;
+    top: 130px;
+}

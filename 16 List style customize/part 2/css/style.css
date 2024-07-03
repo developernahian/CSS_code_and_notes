@@ -1,0 +1,30 @@
+
+
+.course-list {
+    background-color: red;
+    padding: 20px;
+}
+
+
+
+.course-list ul {
+    list-style-type: none;
+}
+
+.course-list li{
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* ! here font awesome icon unicode is f058. and must \ before unicode */
+/* ! we should also add font-family: 'font Awesome 5 free' */
+.course-list li::before{
+    font-weight: bold;
+    content: '\f058';
+    font-family: 'font Awesome 5 free';
+
+    display: inline-block;
+    margin: 10px 5px;
+    font-size: 2rem;
+    color: darkblue;
+}

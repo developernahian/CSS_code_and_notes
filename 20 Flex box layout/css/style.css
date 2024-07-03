@@ -1,0 +1,46 @@
+/* ! by default flex-direction: is row/X okkho borabor */
+.flex-container{
+    background-color: lightcoral;
+    display: flex;
+    flex-wrap: wrap;
+    /* ! flex-wrap: nowrap; it is by default. and wrap-reverse work when not full screen then works it */
+    flex-direction: column;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    flex-flow: wrap row;
+    /* ! flex-flow: property is ATTACH FORM of "flex-wrap and flex-direction" */
+
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    justify-content: center;
+    /* justify-content: space-around;  */
+    /* ! (space-around) left right between 3 dikE space. means between element, start er after, end er rignt */
+    /* justify-content: space-between; */
+     /* ! (space-between) space only between the element... before after no space */
+     
+    
+
+     height: 300px;
+     /* align-items: flex-start; */
+     /* align-items: flex-end; */
+     align-items: center;
+
+}
+
+
+
+
+
+
+/* ! IMPORTANT */
+/* ! here '>' simble means flex-container er under e div container nie kaz korbe */
+.flex-container > div{
+    width: 100px;
+    background-color: lightseagreen;
+    font-size: 35px;
+    margin: 10px;
+    padding: 20px;
+}

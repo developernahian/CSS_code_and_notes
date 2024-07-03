@@ -1,0 +1,15 @@
+.course-list {
+    background-color: rgb(216, 28, 28);
+    color: white;
+    padding: 20px;
+}
+
+
+/* by default list style opsition: OUTSIDE mane baire thake tai inside kore nilam*/
+.course-list ul {
+    /* list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url("../icon/tick.png"); */
+    /* or */
+    list-style: url("../icon/tick.png") inside circle;
+}

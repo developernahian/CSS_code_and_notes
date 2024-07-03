@@ -1,0 +1,36 @@
+h1{
+    text-shadow: 3px 3px;
+}
+h2{
+    text-shadow: 5px 6px red;
+}
+
+/* ! 2px Horizontal/X,,  3px Vertical/Y,, 4px Blur  */
+/* ! X and Y value can be Positive OR Negative */
+h3{
+    text-shadow: 2px 3px 4px green;
+}
+
+
+/* *************************** */
+
+#div1{
+    margin: 50px;
+    width: 200px;
+    background-color: brown;
+    border: 2px solid green;
+    box-shadow: -30px -15px 15px teal;
+
+}
+
+
+
+#div2{
+    margin: 50px;
+    width: 200px;
+    background-color: brown;
+    border: 2px solid green;
+    box-shadow: inset -30px -15px 15px teal;
+    /* inset means Shadow viToRer dikE */
+
+}

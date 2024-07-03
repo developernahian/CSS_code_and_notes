@@ -1,0 +1,39 @@
+div{
+    height: 250px;
+    width: 250px;
+}
+
+/* div1 and div2 te position absolute dewar karone aktar upor akta chole eseche. position use korle aktar upor arekta chole ase */
+/* position korle aktar upor arekta chole ase. and kontar upor konta thakbe seta control korar jonno 'z-index' use kora hoy. That means order gula controll korar jonno 'z-index' use kora hoy */
+/* ! And 'z-index' works with only position  (IMPORTANT) */
+/* ! 'z-index' value can be Positive or Negative. and by default 'z-index' value is 0....    ( IMPORTANT -1  -10 0 5 100).   and jar value boro seta age chole asbe */
+#div1{
+    background: black;
+    position: absolute;
+    z-index: 1;
+}
+
+/* ! here by default z-index value is 0. 0<1 so div1 div2 er upore chole eseche */
+#div2{
+    background: red;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    /* here by default z-index value is 0 */
+}
+
+#div3{
+    background: green;
+    position: absolute;
+    z-index: -1;
+    left: 300px;
+    top: 300px;
+}
+
+#div4{
+    background: blue;
+    position: absolute;
+    z-index: 10;
+    left: 450px;
+    top: 450px;
+}

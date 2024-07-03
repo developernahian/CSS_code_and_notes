@@ -1,0 +1,27 @@
+/* ! If i do not use Height then background color does not work. so  height and weight is necessary and must can use */
+#nav-menu {
+    width: 500px;
+    height: 80px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+/* #nav-menu ul {} */
+
+#nav-menu ul li {
+    list-style-type: none;
+    margin: 20px;
+    float: left;
+}
+
+/* ! text decoration: none for hide link underline */
+#nav-menu ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    cursor: crosshair; /* ! cursor: pointer for change mouse point icon*/
+}
+
+#nav-menu ul li a:hover{
+    text-decoration: underline;
+}

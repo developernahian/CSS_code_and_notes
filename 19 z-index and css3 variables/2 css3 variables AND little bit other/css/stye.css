@@ -1,0 +1,42 @@
+/* TODO NOTE: CSS3 global variable cant work in Internet Exploer */
+/* ! Global variable declear... */
+/* ! here primary-rong is a variable. variable name can be anything like ami, tumi etc */
+:root{
+    --primary-rong: green;
+    --secondary-rong: red;
+    
+}
+
+div {
+    height: 250px;
+    width: 250px;
+}
+
+#div1 {
+    /* TODO background: green; eta extra add kora dorkar jodi internet explorer theke visit kora hoy tahole variable suppert korbe na and extra background: green; eta kaz korbe tokhon. and oboshoi eta variable er age jemon ekhane temni use korte hobe  */
+    /* background: green; */
+    background: var(--primary-rong);
+    position: absolute;
+    z-index: 1;
+}
+
+/* ! Here I use black because if variable name is wrong as a typing mistake then black color will use. and here black is use as a fall back color */
+/* ! internet explorer doesnot support css3 variable so I define black color */
+#div2 {
+    /* background: red; */
+    background: var(--secondary-rong, black);
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+
+
+/* ! Media Quaree  use kore css3 er variable responsive kora */
+/* ! I dont know about media quary, here little bit use it. go browser and increase decrease browser width then color will be change */
+@media screen and (max-width: 600px){
+    :root{
+        --primary-rong: yellow;
+        --secondary-rong: rgb(214, 83, 105);
+        
+    }
+}
