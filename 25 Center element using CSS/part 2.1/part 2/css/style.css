@@ -1,0 +1,23 @@
+/* ? I cant Understand anything this type of center. part 2 is good */
+
+.main {
+   
+    margin: 0 auto;
+    width: 80%;
+    background-color: pink;
+    height: 200px;
+
+    position: relative;
+
+    
+}
+
+.desc {
+    background-color: green;
+    width: 300px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+/* jodi max-width use kori tahole boro thek choto er aste hobe */
+/* jodi min-width use jori tahole choto theke boro te aste aste hobe */
+/* ekhane boro max-width use kora hoyeche so 700 then 600 */
+
+
+@media screen and (max-width: 700px){
+    body{
+        background-color: brown;
+    }
+
+    h1{
+        color: white;
+    }
+    h2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: cadetblue;
+    }
+}

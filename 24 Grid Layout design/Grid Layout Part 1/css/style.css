@@ -1,0 +1,86 @@
+.grid-container_1 {
+    display: grid;
+    grid-template-columns: 90px auto auto auto; /*! first colum 90px, second colums auto, third colums auto, fourth colums auto.. serial maintain kore kaz korbe */
+    /* grid-template-rows: 120px auto  auto auto; */
+    /* ! ekhane row and colum 2 tai use kora jabe. ami akta use korechi ekhane */
+
+
+    /* grid-column-gap: 10px; */
+    /* grid-row-gap: 10px; */
+    /* or */
+    grid-gap: 10px 20px;
+    /*! here first 10px is row value and second 10px is colum value*/
+    background-color: cadetblue;
+}
+
+.grid-container_1>div {
+    background-color: chocolate;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* ! ************************************ */
+.grid-container_2 {
+    display: grid;
+    grid-template-columns: 90px auto auto auto;
+    /* /* grid-template-rows: 120px auto  auto auto; */
+
+
+
+
+    /* justify-content: start; */
+    /* justify-content: end; */
+    justify-content: center;
+}
+
+.grid-container_2>div {
+    background-color: chocolate;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.item1 {
+    /* ! means 1no div ta 1 theke 3no porjonto jaiga nebe */
+    /* grid-column-start: 1; */
+    /* grid-column-end: 3; */
+    /* or */
+    /* grid-column: 1 / 3; */
+    /* or */
+    grid-column: 1 / span 3;
+    /*! span add means 1 start and with 3no end*/
+
+
+
+
+    /* grid-row-start: 1; */
+    /* grid-row-end: 3; */
+    grid-row: 1/3;
+    /* grid-row: 1/ span 3; */
+}
+
+
+
+/* ! ********************************************** */
+
+.grid-container_3 {
+    display: grid;
+    /* ! we can use %,px,fr,auto,repeat(4,25%) like that */
+    /* grid-template-columns: 55% 100px auto auto;  */
+    /* grid-template-columns: repeat(4,25%);  */
+    /* grid-template-columns: repeat(4,1fr );  */
+    grid-template-columns: 1fr 2fr 3fr 1fr 1fr; 
+    /* ! here 1fr+2fr+3fr+1fr+1fr=8, that means 1fr holo 8vager 1vag, 3rf holo 8vager 3vag */
+
+    grid-gap: 10px 20px;
+    background-color: cadetblue;
+}
+
+.grid-container_3 > div {
+    background-color: chocolate;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}

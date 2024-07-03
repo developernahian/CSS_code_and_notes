@@ -1,0 +1,22 @@
+.item1{grid-area: header;}
+.item2{grid-area: menu;}
+.item3{grid-area: main;}
+.item4{grid-area: aside;}
+.item5{grid-area: footer;}
+/* ! we can use a b c d e or any latter or any word as a grid-area value */
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'menu main main main aside aside'
+    'menu footer footer footer footer footer';
+
+}
+
+.grid-container > div{
+    background-color: brown;
+    border: 1px solid green;
+    text-align: center;
+    font-size: 1.5rem;
+}

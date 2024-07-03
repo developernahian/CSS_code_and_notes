@@ -1,0 +1,11 @@
+/* ! please do browser width increase and decrease */
+.grid-container {
+    display: grid;
+    /* ! IMPORTANT */
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.grid-container > div{
+    border: solid;
+    padding: 5px;
+}

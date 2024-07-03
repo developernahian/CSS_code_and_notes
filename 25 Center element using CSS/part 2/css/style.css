@@ -1,0 +1,16 @@
+.main {
+    /*  ! ekhane  text-align: center; kaz korbe na karon eta blocklevel element. tai martin: 0 auto; use kora hoyeche */
+    margin: 0 auto;
+    width: 80%;
+    background-color: pink;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc{
+    background-color: green;
+    width: 300px;
+}

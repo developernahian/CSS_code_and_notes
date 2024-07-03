@@ -1,0 +1,48 @@
+img{
+    width: 200px;
+    height: auto;
+    border: 5px solid black;
+
+    display: block;
+    margin: 0 auto;
+
+    margin-top: 100px;
+    border-radius: 50%;
+
+    
+
+}
+
+img:hover{
+    animation-name: fat-image;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fat-image{
+    /* from{
+        max-width: 200px;
+        border-color: orange;
+    }
+
+    to{
+        max-width: 50px;
+        border-color: red;
+    } */
+
+    /* ! we can use 0% against from and can use 100% against 100%.. both are same */
+
+    0%{
+        max-width: 200px;
+        border-color: orange;
+    }
+
+    50%{
+        border-color: green;
+    }
+
+    100%{
+        max-width: 50px;
+        border-color: red;
+    }
+}

@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+/* vsCode does not show and. but we should must be use and */
+@media screen and (max-width:992px){
+    .column{
+        float: left;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .column{
+        width: 100%;
+    }
+}
+
+@media screen {
+    
+}

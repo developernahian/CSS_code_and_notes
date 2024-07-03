@@ -1,0 +1,10 @@
+.main {
+    text-align: center;
+    background-color: yellow;
+}
+
+h1 {
+    /* ! block level elemen e Width set kore die thakle  seta center e asena tokhon margin: 0 auto use korte hobe center korar jonno */
+    width: 50px;
+    margin: 0 auto;
+}

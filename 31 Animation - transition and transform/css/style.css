@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+.main1 {
+    background-color: tomato;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+
+    /* transition-property: width;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out; */
+    /* or */
+    /*! width(transition-property), 2s(transition-duration), linear(transition-timing-function), 1s(transitiono-delay) */
+    transition: width 2s linear 1s;
+}
+
+.main:hover {
+    width: 400px;
+}
+/* ! ******************************************************************* */
+
+
+.main2 {
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+
+    
+    transition: width 2s, height 4s;
+}
+
+.main2:hover {
+    width: 400px;
+    height: 500px;
+}
+
+/* ! ******************************************************************* */
+
+
+.main3 {
+    background-color: yellowgreen;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+
+    
+    
+}
+
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+    transition: font-size 2s;
+}
+h2:hover{
+    font-size: 3rem;
+}
+
+/* ! ******************************************************************* */
+
+
+.main4 {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    transition: width 2s, transform 2s;
+    
+    
+}
+
+h3{
+    font-size: 2.5rem;
+    text-align: center;
+    transition: font-size 2s;
+}
+.main4:hover{
+    width: 400px;
+    transform: rotate(360deg);
+}
